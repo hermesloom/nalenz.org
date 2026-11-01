@@ -234,4 +234,14 @@ export const works: Work[] = [
       "A manifesto for the free human. They say: that's just how people are. We say: that's how they were made. Against quiet paternalism, for self-authorship, and for taking the will of a child exactly as seriously as the will of an adult.",
     buttons: [{ text: "superreality.si", url: "https://superreality.si" }],
   },
+  {
+    title: "Stiftungsfinder",
+    year: "2026",
+    description:
+      "Find the German foundations most likely to fund your non-profit project: semantic matching of your project description against ~30,000 registered foundation purposes.",
+    buttons: [
+      { text: "stiftungsfinder.nalenz.org", url: "https://stiftungsfinder.nalenz.org" },
+      { text: "GitHub", url: "https://github.com/hermesloom/stiftungsfinder" },
+    ],
+  },
 ];
