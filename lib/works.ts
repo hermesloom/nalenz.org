@@ -10,6 +10,16 @@ export const CONNECT_TITLE = "Connect";
 
 export const works: Work[] = [
   {
+    title: "Research map",
+    year: "2026",
+    description:
+      "One large, zoomable terrain of everything I post on X, placed automatically by topic around my core research question and graded by how directly each post speaks to it. New posts land on the map daily.",
+    buttons: [
+      { text: "research.nalenz.org", url: "https://research.nalenz.org" },
+      { text: "GitHub", url: "https://github.com/hermesloom/research-map" },
+    ],
+  },
+  {
     title: "Nalenz Equity",
     year: "2020",
     description:

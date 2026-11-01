@@ -376,6 +376,53 @@ export default function Home() {
         </section>
 
         <div className="mx-auto max-w-5xl px-5 pb-12 sm:px-8 sm:pb-16">
+          {/* Research map — featured */}
+          <motion.section className="mb-28 sm:mb-36" {...fadeUp}>
+            <a
+              href="https://research.nalenz.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="solarpunk-card-glow solarpunk-glass group relative block overflow-hidden rounded-2xl p-8 transition-transform duration-300 hover:scale-[1.01] sm:p-10"
+            >
+              <div
+                className="pointer-events-none absolute -right-10 -top-10 h-48 w-48 rounded-full opacity-25 blur-3xl transition-opacity group-hover:opacity-40"
+                style={{ background: "#2dd4bf" }}
+              />
+              <div className="mb-3 flex flex-wrap items-center gap-3">
+                <span className="rounded-full border border-[#b8ff57]/40 bg-[#b8ff57]/10 px-3 py-0.5 text-xs tracking-wider text-[#b8ff57] uppercase">
+                  New · research map
+                </span>
+                <span className="text-xs text-[#2dd4bf]/70">
+                  updated daily from my posts on X
+                </span>
+              </div>
+              <h2
+                className="mb-4 text-2xl font-bold sm:text-4xl"
+                style={{ fontFamily: "var(--font-solarpunk-display)" }}
+              >
+                <span className="solarpunk-gradient-text">
+                  The question I keep returning to, as a map
+                </span>
+              </h2>
+              <p className="mb-5 text-lg leading-relaxed text-[#f0fdf4] sm:text-xl">
+                &ldquo;How can we make the structures through which humans
+                coordinate their lives explicit, understandable, interoperable,
+                and changeable, without requiring everyone to agree on one
+                universal representation of reality?&rdquo;
+              </p>
+              <p className="mb-6 text-sm leading-relaxed text-[#a7f3d0]/85 sm:text-base">
+                Every post I write is placed automatically on one large terrain
+                by topic and graded by how directly it speaks to this question.
+                Zoom into the clusters, switch lenses, and read the original
+                posts in place.
+              </p>
+              <span className="solarpunk-social-btn inline-flex items-center gap-1.5 rounded-full px-5 py-3 text-sm font-medium text-[#f0fdf4]">
+                research.nalenz.org
+                <ExternalLinkIcon />
+              </span>
+            </a>
+          </motion.section>
+
           {/* Bio */}
           <motion.section className="mb-28 sm:mb-36" {...fadeUp}>
             <div className="solarpunk-card-glow solarpunk-glass rounded-2xl p-8 sm:p-10">
