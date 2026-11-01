@@ -228,6 +228,18 @@ export const works: Work[] = [
     buttons: [{ text: "openfaster.org", url: "https://openfaster.org" }],
   },
   {
+    title: "Ideas for a Standard for Federated Resource Exchange",
+    year: "2026",
+    description:
+      "A project-management and standardization playbook for developing a new open, HTTP-based standard that lets independently operated community systems exchange resources: from problem discovery, governance and a founding charter through conformance testing, security review and a roadmap to version 1.0.",
+    buttons: [
+      {
+        text: "Read the playbook",
+        url: "https://docs.google.com/document/d/1yJVLV2l3UWQFi42PHAKpuwO1GXMbvu-CGnxrNEztbts/edit?tab=t.0",
+      },
+    ],
+  },
+  {
     title: "BOOTSTRAP",
     year: "2026",
     description:
