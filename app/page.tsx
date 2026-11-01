@@ -382,9 +382,9 @@ export default function Home() {
               <p className="text-lg leading-relaxed text-[#d1fae5]/90 sm:text-xl">
                 Hi, I&apos;m Julian, 26 years old. I started programming when I
                 was 9, studied computer science at TU Munich and KTH Stockholm,
-                co-founded the wildly successful German FinTech Divizend at 19
+                co-founded the successful German FinTech Divizend at 19
                 and then became enchanted with the Burning Man-inspired culture
-                of The Borderland at 22. I saw that the way how we design and
+                of The Borderland at 22, Europe's largest burn, becoming a member on its board, its treasurer and IT admin. I saw that the way how we design and
                 run software directly influences the health of the people. I
                 stand for more trust, more sovereignty, more decentralization,
                 more art, more effective resource use, more democracy, a more
